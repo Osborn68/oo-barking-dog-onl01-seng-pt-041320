@@ -1,14 +1,14 @@
 class Dog 
   
-def self.name=(name)
+def name=(name)
   @name = name 
 end 
 
-def self.name 
+def name 
   @name 
 end 
 
-def self.bark
+def bark
   puts "woof!"
 end 
 end   
